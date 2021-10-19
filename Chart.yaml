@@ -1,17 +1,25 @@
 apiVersion: v2
 type: application
 appVersion: latest
-description: A Matrix-Signal puppeting bridge.
+description: A Matrix-Twitter puppeting bridge.
 name: mautrix-twitter
-version: 0.0.1
+version: 1.0.0
 keywords:
   - synapse
   - chat
   - matrix
   - twitter
-home: https://github.com/tulir/mautrix-twitter
+  - bridge
+home: https://github.com/mautrix/twitter
 sources:
-  - https://github.com/matrix-org/synapse
+  - https://github.com/mautrix/twitter
 maintainers:
   - name: Gavin Mogan
     email: helm@gavinmogan.com
+annotations:
+  artifacthub.io/changes: |
+    - Upgrade to latest templates
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/images: |
+    - name: mautrix-googlechat
+      image: dock.mau.dev/mautrix/twitter:latest
