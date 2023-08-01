@@ -1,6 +1,6 @@
 apiVersion: v2
 type: application
-appVersion: latest
+appVersion: latest@sha256:d365099c4676e246e2d3bce33d3feaee6d1c39835e402ae36ea22e2b3eb1d1a1
 description: A Matrix-Twitter puppeting bridge.
 name: mautrix-twitter
 version: 1.0.1
