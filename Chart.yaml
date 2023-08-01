@@ -3,7 +3,7 @@ type: application
 appVersion: latest@sha256:d365099c4676e246e2d3bce33d3feaee6d1c39835e402ae36ea22e2b3eb1d1a1
 description: A Matrix-Twitter puppeting bridge.
 name: mautrix-twitter
-version: 1.0.1
+version: 1.0.2
 keywords:
   - synapse
   - chat
@@ -18,7 +18,7 @@ maintainers:
     email: helm@gavinmogan.com
 annotations:
   artifacthub.io/changes: |2
-     - "Some local changes i've had for a while 🤞 ([8e5e020](https://github.com/halkeye-helm-charts/mautrix-twitter/commit/8e5e020f5a735a8c6fd955865fe12211630474e5))"
+     - "pin sha so renovate can update it ([70a5575](https://github.com/halkeye-helm-charts/mautrix-twitter/commit/70a5575020b9ce258754af52d06ded60bdb6d689))"
   artifacthub.io/containsSecurityUpdates: 'false'
   artifacthub.io/images: |
     - name: mautrix-googlechat
