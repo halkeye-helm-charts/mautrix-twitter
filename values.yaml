@@ -10,7 +10,7 @@ strategy:
 
 image:
   repository: dock.mau.dev/mautrix/twitter
-  tag: "{{ .Chart.AppVersion }}"
+  tag: "latest@sha256:d365099c4676e246e2d3bce33d3feaee6d1c39835e402ae36ea22e2b3eb1d1a1"
   pullPolicy: Always
 
 imagePullSecrets: []
